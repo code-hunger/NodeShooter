@@ -4,8 +4,9 @@
   "description": "Simple 2D multiplayer shooter",
   "main": "server.js",
   "dependencies": {
+    "bufferutil": "^1.2.1",
     "express": "^3.4.8",
-    "socket.io": "^0.9.16"
+    "ws": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -29,5 +30,5 @@
   "bugs": {
     "url": "https://github.com/StanislavNikolov/NodeShooter/issues"
   },
-  "homepage": "https://github.com/StanislavNikolov/NodeShooter"
+  "homepage": "http://caver.ddns.net/game"
 }

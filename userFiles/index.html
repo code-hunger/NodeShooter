@@ -1,15 +1,26 @@
 <html>
 	<head>
-		<link href="/userFiles/styles.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<link href="userFiles/styles.css" rel="stylesheet">
 	</head>
 
 	<body>
-		<center><canvas id = "mainCanvas"></canvas></center>
-
-		<script src="/socket.io/socket.io.js"></script>
-		<script src="/userFiles/game.js"></script>
-		<script src="/userFiles/client.js"></script>
-		<script src="/userFiles/simulation.js"></script>
+		<canvas id="mainCanvas"></canvas>
+		<canvas id="minimap"></canvas>
+		<table id="scoreboard">
+			<tr id="scoreboardHeader">
+				<th>Name</th>
+				<th>Kills</th>
+				<th>Deaths</th>
+			</tr>
+		</table>
+		<div id="messageboard"> </div>
+		<script src="userFiles/common.js"></script>
+		<script src="userFiles/game.js"></script>
+		<script src="userFiles/client.js"></script>
+		<script src="userFiles/simulation.js"></script>
+		<script src="userFiles/ui.js"></script>
+		<script src="userFiles/init.js"></script>
 	</body>
 
 </html>

@@ -1,0 +1,22 @@
+{
+	"server":
+	{
+		"port": 5000
+	},
+	"bullets":
+	{
+		"ticksPerSecond": 40,
+		"simStepsPerTick": 3,
+		"speedMultiplier": 1.2,
+		"decayRateMultiplier": 0.4,
+		"decayOnRicochetMultiplier": -0.4,
+		"damage": 5
+	},
+	"players":
+	{
+		"ticksPerSecond": 30,
+		"simStepsPerTick": 5,
+		"speedMultiplier": 1,
+		"bulletsPerSecond": 10
+	}
+}
